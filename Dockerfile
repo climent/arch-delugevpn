@@ -38,18 +38,8 @@ VOLUME /config
 # map /data to host defined data path (used to store data from app)
 VOLUME /data
 
-# expose port for deluge webui
-EXPOSE 8112
-
 # expose port for privoxy
 EXPOSE 8118
-
-# expose port for deluge daemon (used in conjunction with LAN_NETWORK env var)
-EXPOSE 58846
-
-# expose port for deluge incoming port (used only if VPN_ENABLED=no)
-EXPOSE 58946
-EXPOSE 58946/udp
 
 # set permissions
 #################
