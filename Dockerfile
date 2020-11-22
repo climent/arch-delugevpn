@@ -1,5 +1,5 @@
-FROM binhex/arch-int-vpn:latest
-MAINTAINER binhex
+FROM arch-int-vpn:1
+MAINTAINER climent
 
 # additional files
 ##################
